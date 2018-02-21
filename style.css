@@ -1,7 +1,5 @@
-
-    @media (max-width: 767px) { 
-        .container{
-            display: container;
-           
-        }
-     }
+@media(max-width:768px){
+    [class*="col-"]{
+        width:100%;
+    }
+}
